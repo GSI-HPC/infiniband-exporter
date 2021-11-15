@@ -61,6 +61,7 @@ class InfinibandCollector(object):
                 'severity': 'Error',
                 'bits': 16,
             },
+            # detailed description of xmitDiscards: (Head of Queue) timeout https://community.mellanox.com/s/article/howto-prevent-infiniband-credit-loops
             'PortSwHOQLifetimeLimitDiscards': {
                 'help': 'The number of packets dropped by running in a head-of-Queue timeout'
                         'often caused by congestions, possibly by credit Loops.',
