@@ -13,7 +13,7 @@ from prometheus_client.core import CounterMetricFamily, GaugeMetricFamily
 from prometheus_client import make_wsgi_app
 from wsgiref.simple_server import make_server, WSGIRequestHandler
 
-VERSION = "0.0.4"
+VERSION = "0.0.5"
 
 class ParsingError(Exception):
     pass
